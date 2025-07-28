@@ -1,0 +1,137 @@
+﻿@using AirBnBCloneMVC.Data
+@inject BnBDBContext dbContext;
+
+@model Reservation
+@{
+    Room room = dbContext.Rooms.Find(new Guid(Model.Room_ID));
+    bool isActive;
+
+    @if(Model.StartDate <= DateOnly.FromDateTime(DateTime.Now) && Model.EndDate >= DateOnly.FromDateTime(DateTime.Now))
+    {
+        isActive = true;
+    }
+    else
+    {
+        isActive = false;
+    }
+}
+
+
+
+<form asp-controller="Reservation" asp-action="Edit" method="post">
+   
+    <input type="text" value="@Model.Id" name="Id" hidden />
+    <input type="text" value="@Model.Customer_ID" name="Customer_ID" hidden />
+    <input type="text" value="@Model.Room_ID" name="Room_ID" hidden />
+    <input type="number" value="@Model.Total_price" name="Total_price" hidden/>
+
+    <div class="text-center">
+        @if (room == null)
+        {
+            <strong>Room has been deleted</strong>
+        }
+        else
+        {
+            <h1> Reservation Editing Form </h1>
+            <h4> Enter the new dates you wish to reserve the room below</h4>
+            <h3>@room.Room_Name</h3>
+            <h5>@room.Room_Type</h5>
+        }
+    </div>
+
+   
+
+
+    @if(Model.EndDate < DateOnly.FromDateTime(DateTime.Now) || room == null )
+    {
+        <div class="col">
+
+            <div class="w-25 mx-auto">
+                
+                <label> Check-in Date</label>
+                <input type="date" class="mt-1 form-control" value="@Model.StartDate.ToString("yyyy-MM-dd")" name="StartDate" readonly />
+                 
+                <label> Check-out Date</label>
+                <input type="date" class="mt-1 mb-2 form-control" value="@Model.EndDate.ToString("yyyy-MM-dd")" name="EndDate" readonly />
+               
+            </div>
+           
+            @if(room != null)
+            {
+                <div class="text-center">
+                    <label class="text-danger text-lg">
+                        Reservation has already ended and cannot be edited
+                    </label>
+                </div>
+            }
+           
+           
+        </div>
+       
+    }
+    else
+    {
+        
+        @if(isActive)
+        {
+
+            <div class="col">
+
+                <div class="w-25 mx-auto">
+                    <label> Check-in Date </label>
+                    <input type="date" class="mt-1 form-control" value="@Model.StartDate.ToString("yyyy-MM-dd")" name="StartDate" required readonly />
+
+                    <label> Check-out Date </label>
+                    <input type="date" class="mt-1 form-control" style="margin-left: 4.5px" value="@Model.EndDate.ToString("yyyy-MM-dd")" name="EndDate" required readonly />
+                </div>
+            
+                <div class="text-center">
+                    <label class="text-danger text-lg">
+                        Warning: The reservation is currently active and cannot be edited
+                    </label>
+                </div>
+
+            </div>
+
+        }
+        else
+        {
+            <div class="col">
+
+                <div class="w-25 mx-auto">
+                    <label> Check-in Date: </label>
+                    <input type="date" class="mt-1 form-control" value="@Model.StartDate.ToString("yyyy-MM-dd")" name="StartDate" required />
+                   
+                    <label> Check-out Date: </label>
+                    <input type="date" class="mt-1 form-control" value="@Model.EndDate.ToString("yyyy-MM-dd")" name="EndDate" required />
+                    
+                    <input type="submit" class="btn btn-primary mt-1 w-100" value="Confirm" />
+                </div>
+            </div>
+           
+        }
+
+    }
+
+</form>
+
+<div class="w-25 mx-auto">
+    <a asp-controller="Reservation" asp-action="Delete" asp-route-id="@Model.Id"> <button class="btn btn-danger rounded-lg mt-1 w-100"> Delete/Cancel Reservation </button> </a> <br />
+    <a asp-controller="Reservation" asp-action="ReservationsList"> <button class="btn btn-warning rounded-lg mt-1 w-100"> Back </button> </a>
+</div>
+
+
+@if (ViewData["NotAvailableMessage"] != null)
+{
+    <div class="alert alert-danger text-center mx-auto w-50 mt-4">
+        @ViewData["NotAvailableMessage"]
+    </div>
+}
+
+@if (
+ViewData["InvalidDatesMessage"] != null)
+{
+    <div class="alert alert-danger text-center mx-auto w-50 mt-4">
+        @ViewData["InvalidDatesMessage"]
+    </div>
+}

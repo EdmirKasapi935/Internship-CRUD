@@ -1,0 +1,48 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+<script>
+    localStorage.setItem("Token", "@TempData["token"]");
+    localStorage.getItem("Token");
+</script>
+*@
+@model Tuple<User, List<Room>>
+@{
+    var owner = Model.Item1;
+    var rooms = Model.Item2;
+}
+
+
+
+<h1 class="text-center">Welcome, @owner.UserName</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Capacity</th>
+            <th>Location</th>
+            <th>Price per night</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var room in rooms)
+        {
+            <tr>
+                <td>@room.Room_Name</td>
+                <td>@room.Room_Type</td>
+                <td>@room.Room_Capacity</td>
+                <td>@room.Room_Location</td>
+                <td>@room.Room_PricePerNight</td>
+                <td>
+                    <a asp-controller="Room" asp-action="EditForm" asp-route-id="@room.Id"> <button class="btn btn-primary rounded-lg"> Inspect </button>  </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+
+<a asp-controller="Room" asp-action="RegisterForm" > <button class="btn btn-primary"> Add Room </button>  </a>
+<a asp-controller="Reservation" asp-action="DisplayRoomReservations" > <button class="btn btn-primary"> View Reservations </button>  </a>

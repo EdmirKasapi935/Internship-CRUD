@@ -1,0 +1,44 @@
+﻿@using AirBnBCloneMVC.Data
+@inject BnBDBContext dbContext;
+
+@model Tuple<User, List<Room>, List<User>>
+@{
+    var customer = Model.Item1;
+    var rooms = Model.Item2;
+    var owners = Model.Item3;
+}
+
+
+
+
+<h1>Welcome, @customer.UserName</h1>
+<a asp-controller="Reservation" asp-action="reservationsList"> <button class="btn btn-primary mt-1">Show My Reservations</button> </a>
+
+<div class="row">
+
+    @foreach (var room in rooms)
+    {
+     <div class="col-md-3">
+        <div class="card mx-3 my-3" style="width: 18rem; height: 15rem;">
+            <div class="card-body">
+                <h5 class="card-title" style="white-space: nowrap; overflow: hidden; text-overflow:ellipsis;" >@room.Room_Name</h5>
+                <h6 class="card-title" style="white-space: nowrap; overflow: hidden; text-overflow:ellipsis;" >@room.Room_Type</h6>
+                <h6 class="card-title" style="white-space: nowrap; overflow: hidden; text-overflow:ellipsis;" >Per night: $@room.Room_PricePerNight</h6>
+                    <p class="card-text" style=" overflow : hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">@room.Room_Description</p>
+                <form asp-controller="Room" asp-action="RoomView">
+                    <input type="text" value="@room.Id" name="roomID" hidden />
+                    <input type="submit" value="Read More" class="btn btn-primary" style="position: absolute; top: 12rem;"/>
+                </form>
+            </div>
+        </div>
+     </div>
+    }
+
+</div>
+
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model User
+
+@if (ViewData["InvalidInfoMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @ViewData["InvalidInfoMessage"]
+    </div>
+}
+
+@if (ViewData["CannotSaveMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @ViewData["CannotSaveMessage"]
+    </div>
+}
+
+
+<h1 class="text-center"> Register a Room </h1>
+<h3 class="text-center"> Please make sure to enter the proper information </h3>
+
+<form asp-controller="Room" asp-action="Result" method="post" enctype="multipart/form-data">
+    <input type="text" name="Owner_Id" value="@Model.Id" hidden />
+
+
+    <div class="w-75 mx-auto">
+            <div class="row">
+                <div class="col">
+                    <label> Room Name</label>
+                    <input type="text" name="Room_Name" class="form-control" required />
+                </div>
+                <div class="col">
+                    <label> Room Type</label>
+                    <select name="Room_Type" class="form-control" required>
+                        <option value="Standard Room"> Standard Room </option>
+                        <option value="Single Room"> Single Room </option>
+                        <option value="Presidential Suite"> Presidential Suite </option>
+                        <option value="Suite"> Suite </option>
+                        <option value="Double Room"> Double Room </option>
+                        <option value="Triple Room"> Triple Room </option>
+                        <option value="Studio"> Studio </option>
+                        <option value="Villa"> Villa </option>
+                    </select><br />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label> Location </label>
+                    <input type="text" name="Room_Location" class="form-control" required /><br />
+                </div>
+                <div class="col">
+                    <label> Capacity </label>
+                    <input type="number" min="1" max="1000" value="1" name="Room_Capacity" class="form-control" required />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label> Price per Night </label>
+                    <input type="number" min="1" value="1" name="Room_PricePerNight" class="form-control" required /><br />
+                </div>
+                <div class="col">
+                    <label> Pictures (Optional) </label>
+                <input type="file" name="pictures" multiple="multiple" class="form-control" accept="image/*" />
+                </div>
+            </div>
+
+        <strong class="mt-1">Amenities:</strong><br />
+            <label> Wifi-</label> <input type="checkbox" name="Has_Wifi" value="True" class="mt-1" /><br />
+            <label> Pool-</label> <input type="checkbox" name="Has_Pool" value="True" class="mt-1" /><br />
+            <label> Kitchen-</label> <input type="checkbox" name="Has_Kitchen" value="True" class="mt-1" /><br />
+            <label> Parking-</label> <input type="checkbox" name="Has_Parking" value="True" class="mt-1" /><br />
+            <label> Air Conditioning-</label> <input type="checkbox" name="Has_AirConditioning" value="True" class="mt-1" /><br />
+
+            <div class="col mt-2">
+                <label> Description</label>
+                <textarea name="Room_Description" class="form-control" required></textarea>
+            </div>
+    </div>
+
+    <div class="mx-auto w-25">
+        <input type="submit" value="Register Room" class="btn btn-primary mt-3 text-center w-100" />
+    </div>       
+</form>
+ 
+    <div class="mx-auto w-25">
+    <a asp-controller="User" asp-action="OwnerMenu"> <button class="btn btn-warning mt-1 text-center w-100"> Cancel </button>  </a>
+    </div>
+
+
+    
+

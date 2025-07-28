@@ -1,0 +1,126 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Tuple<Room, User, List<Picture>>
+@{
+    var room = Model.Item1;
+    var owner = Model.Item2;
+    var pictures = Model.Item3;
+    int i = 0;
+}
+
+
+<div class="row">
+
+<div class="col">
+    
+    <strong class="h1">@room.Room_Name</strong> 
+    <strong class="display-6"> - @room.Room_Type</strong>
+    <br />
+    <strong class="h4">@room.Room_Location</strong>
+    <br />
+    <strong class="h5"> Capacity: @room.Room_Capacity People </strong>
+    <br />
+    <label class="mt-5"> Amenities: </label> 
+    <br />
+    @if ((room.Has_Wifi || room.Has_Pool || room.Has_Kitchen || room.Has_Parking || room.Has_AirConditioning) == false )
+    {
+        <label>None</label>
+        <br />
+    }
+    else
+    {
+        <ul>
+            @if(room.Has_Wifi)
+            {
+            <li> Wifi </li>
+            }
+
+            @if (room.Has_Pool)
+            {
+                <li> Pool</li>
+            }
+
+            @if (room.Has_Kitchen)
+            {
+                <li> Kitchen </li>
+            }
+
+            @if (room.Has_Parking)
+            {
+                <li> Parking </li>
+            }
+
+            @if (room.Has_AirConditioning)
+            {
+                <li> Air Conditioning </li>
+            }
+        </ul>
+    }
+
+    <br />
+    <label class="h5"> Price per day: </label>   <strong class="h5"> $@room.Room_PricePerNight  </strong>
+    <br />
+    <label class="h5" >-Description-</label>
+    <br />
+    <textarea class="form-control" readonly> @room.Room_Description </textarea>
+    <br />
+    <strong>Owner: @owner.UserName -- Contact: @owner.UserPhone</strong>
+
+    <form asp-controller="Reservation" asp-action="ReservationForm">
+        <input type="text" value="@room.Id" name="RoomID" hidden />
+        <input type="submit" class="btn btn-primary mt-1 w-100" value="Reserve Room" />
+
+    </form>
+
+    <a asp-action="CustomerMenu" asp-controller="User"> <button class="btn btn-warning mt-1 w-100"> Go Back  </button> </a>
+</div>
+
+<div class="col">
+    @if (pictures.Count == 0)
+    {
+        <strong class="mt-1"> This room has no pictures </strong>
+    }
+    else
+    {
+        <div id="carouselExample" class="carousel slide mt-2 bg-black rounded-3" style="height: 400px; width: 600px;" data-bs-interval="false">
+
+            <div class="carousel-inner h-100">
+
+                @foreach (var picture in pictures)
+                {
+                    i++;
+                    var active = i == 1 ? "active" : "";
+                    <div class="carousel-item @active h-100 position-relative">
+                        <div class="container" style="z-index:1;">
+
+                            <img src="~/PictureUploads/@picture.Path" class="d-block position-absolute top-50 start-50 translate-middle" style="width:80%; height:auto; max-height:100%; z-index:2;" alt="..." />
+                            <img src="~/PictureUploads/@picture.Path" class="d-block position-absolute top-50 start-50 translate-middle" style="opacity: 0.5; background-size:cover;" />
+                        </div>
+
+                    </div>
+                }
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+    }
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+

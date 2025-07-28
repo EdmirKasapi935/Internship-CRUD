@@ -1,0 +1,42 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="w-50 mx-auto">
+    <h1> Register User </h1>
+    <form method="post" action="Insert" >
+       
+        <div class="row">
+            <div class="col">
+                <label> Username </label>
+                <input type="text" class="form-control" name="UserName" required>
+            </div>
+            <div class="col">
+                <label>E-Mail</label>
+                <input type="email" class="form-control" name="UserEmail" placeholder="Example@Mail.com" required>
+            </div>
+        </div>
+
+        <div class="mb-2 mt-2">
+            <label for="formGroupExampleInput" class="form-label">Password</label>
+            </label> <input class="form-control" type="password" name="UserPassword" required />
+        </div>
+        <div class="mb-2">
+            <label for="formGroupExampleInput2" class="form-label">Phone</label>
+            <input type="tel" class="form-control" name="UserPhone" pattern="[0-9]{10}" placeholder="0112223344" required />
+        </div>
+
+        <input type="checkbox" name="IsOwner" value="True" style="margin-left: 5px;" /> <label class="mt-2"> Are you an Owner? </label><br />
+        <input type="submit" class="btn btn-primary mt-2" value="Register"/>
+    </form>
+</div>
+
+@if (ViewData["EmailUnavailableMessage"] != null)
+{
+    <div class="alert alert-danger w-50 text-center mx-auto mt-4" role="alert">
+        @ViewData["EmailunavailableMessage"]
+    </div>
+}
+

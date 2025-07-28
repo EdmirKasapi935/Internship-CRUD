@@ -1,0 +1,101 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Tuple<User, Room, List<Reservation>>
+@{
+    var customer = Model.Item1;
+    var thisRoom = Model.Item2;
+    var reservations = Model.Item3;
+    Reservation currentreservation = null;
+    bool rented = false;
+ 
+
+    @foreach( var reservation in reservations)
+    {
+        if (reservation.StartDate <= DateOnly.FromDateTime(DateTime.Now) && reservation.EndDate >= DateOnly.FromDateTime(DateTime.Now))
+        {
+            currentreservation = reservation;
+            rented = true;
+        }
+    }
+}
+
+
+
+
+
+<div class="col text-center"> 
+    <h2> Enter the dates you want to reserve the room below</h2>
+    <h3> @thisRoom.Room_Name </h3>
+    <h5> @thisRoom.Room_Type </h5>
+</div>
+
+<div class="w-25 mx-auto">
+
+<form asp-controller="Reservation" asp-action="AddReservation" method="post">
+
+    <input type="text" value="@customer.Id" name="Customer_ID" hidden />
+    <input type="text" value="@thisRoom.Id" name="Room_ID" hidden />
+  
+        <div class="col">
+            <label> Check-in Date</label>
+            <input type="date" class="mt-1 form-control" name="StartDate" required />
+        </div>
+        <div class="col">
+            <label> Check-out Date</label>
+            <input type="date" class="mt-1 form-control" name="EndDate" required />
+        </div>
+
+        <input type="submit" class="btn btn-primary mt-1 w-100" value="Confirm" />
+ 
+</form>
+
+<form asp-controller="Room" asp-action="RoomView">
+    <input type="text" value="@thisRoom.Id" name="roomID" hidden />
+    <input type="submit" value="Cancel" class="btn btn-warning mt-1 w-100" />
+</form>
+
+</div>
+
+
+<div class="text-center w-25 mx-auto">
+@if (reservations.Count == 0)
+{
+    <p class="mt-2">This room has no reservations so far</p>
+}
+else
+{
+    <strong class="mt-2 mb-2">This room is reserved on these dates:</strong>
+
+    <ul>
+        @foreach (var reservation in reservations)
+        {
+            if(currentreservation != null && reservation.StartDate == currentreservation.StartDate && reservation.EndDate == currentreservation.EndDate)
+            {
+                <li> @reservation.StartDate - @reservation.EndDate - Currently Active </li>
+            }
+            else
+            {
+                <li> @reservation.StartDate - @reservation.EndDate</li>
+            }
+
+        }
+    </ul>
+}
+</div>
+
+
+@if (ViewData["NotAvailableMessage"] != null)
+{
+    <div class="alert alert-danger text-center mx-auto w-50">
+        @ViewData["NotAvailableMessage"]
+    </div>
+}
+
+@if (
+ViewData["InvalidDatesMessage"] != null)
+{
+    <div class="alert alert-danger text-center mx-auto w-50">
+        @ViewData["InvalidDatesMessage"]
+    </div>
+}

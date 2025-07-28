@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to the AirBnBClone!</h1>
+    <form asp-controller="Login" asp-action="LoginAuth">        
+        <div class="form-floating mb-3 mt-2 w-25 mx-auto">
+            <input type="email" class="form-control" name="LoginEmail" d="floatingInput" placeholder="name@example.com" required>
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating w-25 mx-auto">
+            <input type="password" class="form-control" name="LoginPassword" placeholder="Password" required>
+            <label for="floatingPassword">Password</label>
+        </div>
+        <input type="submit" value="Log In" class="btn btn-dark mt-2 w-25"/>
+    </form>
+
+    <strong> Forgot Password? <a asp-controller="User" asp-action="changePasswordForm">Click Here</a>  </strong>
+
+</div>
+
+
+
+@if (ViewData["RegistrationSuccessfulMesssage"] != null)
+{
+    <div class="alert alert-success w-50 text-center mx-auto mt-4" role="alert">
+        @ViewData["RegistrationSuccessfulMesssage"]
+    </div>
+    /*@ViewData.Remove("RegistrationSuccessfulMesssage");*/
+}
+
+@if (ViewData["PasswordChangeSuccessfulMessage"] != null)
+{
+    <div class="alert alert-success w-50 text-center mx-auto mt-4" role="alert">
+        @ViewData["PasswordChangeSuccessfulMessage"]
+    </div>
+    /*@ViewData.Remove("RegistrationSuccessfulMesssage");*/
+}
+
+@if (ViewData["InvalidUserMessage"] != null)
+{
+    <div class="alert alert-danger w-50 text-center mx-auto mt-4" role="alert">
+        @ViewData["InvalidUserMessage"]
+    </div>
+}
+
+
+

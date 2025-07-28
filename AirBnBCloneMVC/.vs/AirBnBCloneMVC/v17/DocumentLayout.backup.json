@@ -1,0 +1,790 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\views\\user\\owner\\roominspect.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\views\\user\\owner\\roominspect.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\views\\user\\owner\\roomform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\views\\user\\owner\\roomform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\views\\user\\customer\\roomresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\views\\user\\customer\\roomresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\views\\user\\customer\\customercheck.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\views\\user\\customer\\customercheck.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\views\\user\\customer\\reservationedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\views\\user\\customer\\reservationedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\views\\user\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\views\\user\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\views\\user\\owner\\roomreservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\views\\user\\owner\\roomreservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\views\\user\\owner\\ownercheck.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\views\\user\\owner\\ownercheck.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\migrations\\20241218121705_picturemigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\migrations\\20241218121705_picturemigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\migrations\\bnbdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\migrations\\bnbdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\models\\auth\\loginrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\models\\auth\\loginrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\models\\auth\\loginresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\models\\auth\\loginresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\migrations\\20241120095502_reservationmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\migrations\\20241120095502_reservationmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\migrations\\20241111145733_roommigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\migrations\\20241111145733_roommigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\migrations\\20241107142503_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\migrations\\20241107142503_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\data\\bnbdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\data\\bnbdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\views\\user\\customer\\reservationform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\views\\user\\customer\\reservationform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\views\\user\\customer\\reservationslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\views\\user\\customer\\reservationslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\models\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\models\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\airbnbclonemvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\airbnbclonemvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241218121115_PictureMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241120095331_ReservationMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241120094910_ReservationMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241120094816_ReservationMgration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\models\\roomviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\models\\roomviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|c:\\users\\user\\onedrive\\desktop\\repositories\\internship-crud\\airbnbclonemvc\\airbnbclonemvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80BA228B-DFD0-4CBD-A255-2844899AF62C}|AirBnBCloneMVC\\AirBnBCloneMVC.csproj|solutionrelative:airbnbclonemvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Controllers\\UserController.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwF4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T11:34:30.952Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAQwB4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:28:08.843Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Controllers\\RoomController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Controllers\\RoomController.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAAAMQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T15:42:09.874Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Controllers\\ReservationController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Controllers\\ReservationController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAMEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T11:19:21.23Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\wwwroot\\favicon.ico",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "RelativeToolTip": "AirBnBCloneMVC\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-07-28T14:14:03.272Z",
+              "EditorCaption": " - Icon [32x32, 32 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoomForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\Owner\\RoomForm.cshtml",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Views\\User\\Owner\\RoomForm.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\Owner\\RoomForm.cshtml",
+              "RelativeToolTip": "AirBnBCloneMVC\\Views\\User\\Owner\\RoomForm.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEUAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T12:24:45.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoomInspect.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\Owner\\RoomInspect.cshtml",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Views\\User\\Owner\\RoomInspect.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\Owner\\RoomInspect.cshtml",
+              "RelativeToolTip": "AirBnBCloneMVC\\Views\\User\\Owner\\RoomInspect.cshtml",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAKwAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T14:01:21.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerCheck.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\Customer\\CustomerCheck.cshtml",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Views\\User\\Customer\\CustomerCheck.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\Customer\\CustomerCheck.cshtml",
+              "RelativeToolTip": "AirBnBCloneMVC\\Views\\User\\Customer\\CustomerCheck.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T11:25:21.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReservationEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\Customer\\ReservationEdit.cshtml",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Views\\User\\Customer\\ReservationEdit.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\Customer\\ReservationEdit.cshtml",
+              "RelativeToolTip": "AirBnBCloneMVC\\Views\\User\\Customer\\ReservationEdit.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T14:26:05.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "AirBnBCloneMVC\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T11:38:32.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoomResult.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\Customer\\RoomResult.cshtml",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Views\\User\\Customer\\RoomResult.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\Customer\\RoomResult.cshtml",
+              "RelativeToolTip": "AirBnBCloneMVC\\Views\\User\\Customer\\RoomResult.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T15:43:11.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AirBnBCloneMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T11:40:57.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "AirBnBCloneMVC\\Views\\User\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T16:15:25.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Views\\User\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\ChangePassword.cshtml",
+              "RelativeToolTip": "AirBnBCloneMVC\\Views\\User\\ChangePassword.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAtwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-06T14:22:04.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\appsettings.json",
+              "RelativeToolTip": "AirBnBCloneMVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-07T14:15:19.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RoomReservations.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\Owner\\RoomReservations.cshtml",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Views\\User\\Owner\\RoomReservations.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\Owner\\RoomReservations.cshtml",
+              "RelativeToolTip": "AirBnBCloneMVC\\Views\\User\\Owner\\RoomReservations.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T14:06:36.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OwnerCheck.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\Owner\\OwnerCheck.cshtml",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Views\\User\\Owner\\OwnerCheck.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\Owner\\OwnerCheck.cshtml",
+              "RelativeToolTip": "AirBnBCloneMVC\\Views\\User\\Owner\\OwnerCheck.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T15:37:53.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "AirBnBCloneMVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T16:15:46.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20241218121705_PictureMigration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241218121705_PictureMigration.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Migrations\\20241218121705_PictureMigration.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241218121705_PictureMigration.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Migrations\\20241218121705_PictureMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T12:17:05.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BnBDBContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\BnBDBContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Migrations\\BnBDBContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\BnBDBContextModelSnapshot.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Migrations\\BnBDBContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T10:29:23.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T18:41:51.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Program.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Program.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T14:28:55.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginRequestModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Models\\Auth\\LoginRequestModel.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Models\\Auth\\LoginRequestModel.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Models\\Auth\\LoginRequestModel.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Models\\Auth\\LoginRequestModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T15:01:21.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Models\\Auth\\LoginResponseModel.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Models\\Auth\\LoginResponseModel.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Models\\Auth\\LoginResponseModel.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Models\\Auth\\LoginResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T15:02:36.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20241120095502_ReservationMigration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241120095502_ReservationMigration.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Migrations\\20241120095502_ReservationMigration.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241120095502_ReservationMigration.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Migrations\\20241120095502_ReservationMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:55:03.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20241111145733_RoomMigration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241111145733_RoomMigration.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Migrations\\20241111145733_RoomMigration.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241111145733_RoomMigration.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Migrations\\20241111145733_RoomMigration.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:52:11.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20241107142503_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241107142503_InitialCreate.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Migrations\\20241107142503_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241107142503_InitialCreate.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Migrations\\20241107142503_InitialCreate.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T14:25:03.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BnBDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Data\\BnBDBContext.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Data\\BnBDBContext.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Data\\BnBDBContext.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Data\\BnBDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T12:58:12.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Models\\User.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:35:51.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Models\\Reservation.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:42:23.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Models\\Room.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Models\\Room.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Models\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T09:54:51.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ReservationForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\Customer\\ReservationForm.cshtml",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Views\\User\\Customer\\ReservationForm.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\Customer\\ReservationForm.cshtml",
+              "RelativeToolTip": "AirBnBCloneMVC\\Views\\User\\Customer\\ReservationForm.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAGEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T09:58:35.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "AirBnBCloneMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T11:47:04.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AirBnBCloneMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T11:33:39.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "AirBnBCloneMVC\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T16:15:48.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ReservationsList.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\Customer\\ReservationsList.cshtml",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Views\\User\\Customer\\ReservationsList.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\User\\Customer\\ReservationsList.cshtml",
+              "RelativeToolTip": "AirBnBCloneMVC\\Views\\User\\Customer\\ReservationsList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T10:11:47.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "AirBnBCloneMVC\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-06T14:18:12.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Services\\JwtService.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Services\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T20:10:14.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Picture.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Models\\Picture.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Models\\Picture.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Models\\Picture.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Models\\Picture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T12:06:10.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Models\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Models\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Models\\UserViewModel.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Models\\UserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T11:26:07.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AirBnBCloneMVC.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\AirBnBCloneMVC.csproj",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\AirBnBCloneMVC.csproj",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\AirBnBCloneMVC.csproj",
+              "RelativeToolTip": "AirBnBCloneMVC\\AirBnBCloneMVC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-18T12:56:02.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20241218121115_PictureMigration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241218121115_PictureMigration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241218121115_PictureMigration.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241218121115_PictureMigration.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241218121115_PictureMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T12:11:15.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20241120095331_ReservationMigration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241120095331_ReservationMigration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241120095331_ReservationMigration.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241120095331_ReservationMigration.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241120095331_ReservationMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:53:31.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20241120094910_ReservationMigration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241120094910_ReservationMigration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241120094910_ReservationMigration.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241120094910_ReservationMigration.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241120094910_ReservationMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:49:10.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20241120094816_ReservationMgration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241120094816_ReservationMgration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241120094816_ReservationMgration.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241120094816_ReservationMgration.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\AirBnBCloneMVC\\AirBnBCloneMVC\\Migrations\\20241120094816_ReservationMgration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:48:17.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "RoomViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Models\\RoomViewModel.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Models\\RoomViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Models\\RoomViewModel.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Models\\RoomViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:41:39.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "AirBnBCloneMVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:41:35.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "AirBnBCloneMVC\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\repositories\\Internship-CRUD\\AirBnBCloneMVC\\AirBnBCloneMVC\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "AirBnBCloneMVC\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T11:47:07.875Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

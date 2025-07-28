@@ -1,0 +1,62 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Tuple<List<Reservation>,List<Room>, List<User>>
+@{
+    var reservations = Model.Item1;
+    var rooms = Model.Item2;
+    var owners = Model.Item3;
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Room Name</th>
+            <th>Owner</th>
+            <th>Contact</th>
+            <th>Check-in</th>
+            <th>Check-Out</th>
+            <th>Total Price</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var reservation in reservations)
+        {
+            Room thisRoom = rooms.Find(n => n.Id.ToString() == reservation.Room_ID);
+
+            
+            
+           
+
+            <tr>
+                @if(thisRoom != null)
+                {
+                    User thisOwner = owners.Find(n => n.Id.ToString() == thisRoom.Owner_Id);
+
+                    <td>@thisRoom.Room_Name</td>
+                    <td>@thisOwner.UserName</td>
+                    <td>@thisOwner.UserPhone</td>
+
+                }
+                else
+                {
+                    <td> Room has been deleted </td>
+                    <td> </td>
+                    <td> </td>
+                }
+                <td>@reservation.StartDate</td>
+                <td>@reservation.EndDate</td>
+                <td>@reservation.Total_price</td>
+                <td>
+                    <a asp-controller="Reservation" asp-action="EditForm" asp-route-id="@reservation.Id"> <button class="btn btn-primary rounded-lg"> Inspect </button>  </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+
+<br />
+<a asp-action="CustomerMenu" asp-controller="User"> <button class="btn btn-primary"> Rooms  </button>   </a>

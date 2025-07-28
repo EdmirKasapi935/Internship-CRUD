@@ -1,0 +1,213 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+@model Tuple<Room, List<Picture>, bool>
+    var Room = Model.Item1;
+    var Pictures = Model.Item2;
+    var rented = Model.Item3;
+
+    int i = 0;
+}
+
+<div class="row">
+    <div class="col">
+    <form asp-controller="Room" asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="text" name="Id" value="@Room.Id" hidden />
+    <input type="text" name="Owner_Id" value="@Room.Owner_Id" hidden />
+
+    <div class="row">
+        <div class="col">
+            <label> Room Name </label>
+            <input type="text" name="Room_Name" value="@Room.Room_Name" class="form-control" required />
+        </div>
+        
+        <div class="col">
+            <label> Room Type </label>
+            <select name="Room_Type" value="@Room.Room_Type" class="form-control" required>
+                <option value="Standard Room"> Standard Room </option>
+                <option value="Single Room"> Single Room </option>
+                <option value="Presidential Suite"> Presidential Suite </option>
+                <option value="Suite"> Suite </option>
+                <option value="Double Room"> Double Room </option>
+                <option value="Triple Room"> Triple Room </option>
+                <option value="Studio"> Studio </option>
+                <option value="Villa"> Villa </option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <label> Location </label> 
+            <input type="text" name="Room_Location" value="@Room.Room_Location" class="form-control" required /><br />
+        </div>
+        <div class="col">
+            <label> Capacity </label> 
+            <input type="number" min="1" max="1000" value="@Room.Room_Capacity" name="Room_Capacity" class="form-control" required /><br />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <label> Price per Night</label> 
+            <input type="number" min="1" value="@Room.Room_PricePerNight" name="Room_PricePerNight" class="form-control" required /><br />
+        </div>
+        <div class="col">
+            <label>Add Pictures</label>
+                    <input type="file" name="pictures" multiple="multiple" class="form-control" accept="image/*" />
+        </div>
+    </div>
+
+   
+    
+    
+    <strong class="mt-1"> Amenities: </strong><br />
+
+    <label> Wifi-</label>
+    @if (Room.Has_Wifi)
+    {
+        <input type="checkbox" name="Has_Wifi" value="True" checked/><br />
+    }
+    else
+    {
+        <input type="checkbox" name="Has_Wifi" value="True" /><br />
+    }
+
+    <label> Pool-</label>
+    @if (Room.Has_Pool)
+    {
+        <input type="checkbox" name="Has_Pool" value="True" checked /><br />
+    }
+    else
+    {
+        <input type="checkbox" name="Has_Pool" value="True" /><br />
+    }
+
+    <label> Kitchen-</label>
+    @if (Room.Has_Kitchen)
+    {
+        <input type="checkbox" name="Has_Kitchen" value="True" checked /><br />
+    }
+    else
+    {
+        <input type="checkbox" name="Has_Kitchen" value="True" /><br />
+    }
+
+    <label> Parking-</label>
+    @if (Room.Has_Parking)
+    {
+        <input type="checkbox" name="Has_Parking" value="True" checked /><br />
+    }
+    else
+    {
+        <input type="checkbox" name="Has_Parking" value="True" /><br />
+    }
+
+    <label> Air Conditioning-</label>
+    @if (Room.Has_AirConditioning)
+    {
+        <input type="checkbox" name="Has_AirConditioning" value="True" checked /><br />
+    }
+    else
+    {
+        <input type="checkbox" name="Has_AirConditioning" value="True" />
+
+        <br />
+    }
+
+    <div class="col">
+        <label> Description</label>
+        <textarea name="Room_Description" class="form-control" required> @Room.Room_Description </textarea>
+    </div>
+
+  
+   
+    <input type="submit" value="Edit Room" class="btn btn-primary mt-1 w-100" />
+    
+
+    <!--<input type="submit" value="Delete" class="btn btn-danger mt-1" asp-action="Delete" asp-controller="Room" />-->
+</form>
+
+@if(!rented)
+{
+
+    <a asp-controller="Room" asp-action="Delete" asp-route-id="@Room.Id"> <button class="btn btn-danger rounded-lg mt-1 w-100"> Delete </button> </a>
+    <br />
+    <a asp-controller="User" asp-action="OwnerMenu"> <button class="btn btn-warning mt-1 w-100"> Back </button>  </a>
+}
+else
+{
+     <a asp-controller="User" asp-action="OwnerMenu"> <button class="btn btn-warning mt-1 w-100 "> Back </button>  </a>
+    <strong class="mt-1 text-danger"> Warning: A reservation is already active. Be mindful when editing the room. You can remove this room when the reservation has ended </strong>
+    <br />
+}
+
+
+</div>
+
+
+<div class="col">
+
+   
+
+@if(Pictures.Count ==0)
+{
+    <strong class="mt-1"> This room has no pictures </strong>
+}
+else
+{
+    <div id="carouselExample" class="carousel slide mt-2 bg-black" style="height: 400px; width: 600px;" data-bs-interval="false">
+
+        <div class="carousel-inner h-100">
+
+            @foreach (var picture in Pictures)
+            {
+                i++;
+                var active = i == 1 ? "active" : "";
+                <div class="carousel-item @active h-100 position-relative">
+                    <div class="container" style="z-index:1;">
+
+                        <img src="~/PictureUploads/@picture.Path" class="d-block position-absolute top-50 start-50 translate-middle" style="width:80%; height:auto; max-height:100%;" alt="..." />
+                        
+                            <a asp-controller="Room" asp-action="DeleteSingleImage" asp-route-id="@picture.Id"> <button class="btn btn-danger position-absolute top-0 start-50 translate-middle-x" style="z-index:999;"> Delete Image</button> </a>
+                                                
+
+                    </div>
+
+                </div>
+            }
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+
+    <div class="mt-3">
+                @if (ViewData["RoomRentedError"] != null)
+                {
+                    <div class="alert alert-danger">
+                        @ViewData["RoomRentedError"]
+                    </div>
+                }
+
+
+                @if (ViewData["CannotEditMessage"] != null)
+                {
+                    <div class="alert alert-danger">
+                        @ViewData["CannotEditMessage"]
+                    </div>
+                }
+    </div>
+            
+}
+    </div>
+    
+</div>
+
