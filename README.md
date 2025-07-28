@@ -3,7 +3,7 @@ This is a CRUD project which I worked on during an internship. The aim was to le
 In order to run this project, you need:<br/>
 -Visual Studio, with ASP.NET pachages/components installed.<br/>
 -SQL Server Studio.<br/>
-Import the project's database in SQl server studio and make sure to chage the server name and databse name of the connection string(found in appsettings.json) accordingly. Below, are the pacakgges used for this project.<br/>
+Import the project's database in SQl server studio and make sure to change the server name and database name of the connection string(found in appsettings.json) accordingly. Below, are the packages used for this project.<br/>
 <img width="427" height="188" alt="airbnbclonepackages" src="https://github.com/user-attachments/assets/12ed15af-e486-4258-80d9-8cd6d58c7e1a" /><br/>
 Here are some accounts and passwords for them(you can make your own too):
 invincible@gmail.com -- vincible<br/>
